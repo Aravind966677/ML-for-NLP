@@ -5,20 +5,22 @@ This repository contains a comprehensive Natural Language Processing (NLP) pipel
 
 ## Features
 
-- Text tokenization (words and sentences)
-- Stopwords removal
-- Stemming using Porter Stemmer
-- Lemmatization using WordNet
-- Part-of-Speech (POS) tagging
-- Named Entity Recognition (NER)
-- Text vectorization techniques:
-  - One-Hot Encoding
-  - Bag of Words (BoW)
-  - N-grams (Bigrams)
-  - TF-IDF (Term Frequency-Inverse Document Frequency)
-- Word Embeddings using Word2Vec:
-  - CBOW (Continuous Bag of Words)
-  - Skip-gram models
+## NLP Techniques Overview
+
+| Technique | Purpose |
+|-----------|---------|
+| Tokenization | Breaks text into words or sentences. |
+| Stemming | Simplifies words to their root forms. |
+| Lemmatization | Reduces words to their base/dictionary forms. |
+| Stopwords Removal | Eliminates common, non-informative words. |
+| POS Tagging | Assigns grammatical roles to words. |
+| NER | Detects named entities like names, places. |
+| One-Hot Encoding | Binary representation of words. |
+| Bag of Words (BoW) | Word frequency representation. |
+| n-grams | Combines adjacent words into sequences. |
+| TF-IDF | Weighs words by frequency and uniqueness. |
+| Word Embeddings | Dense semantic representations of words. |
+| Word2Vec (CBOW/Skip-gram) | Generates word embeddings using neural networks. |
 
 ## Prerequisites
 
@@ -97,3 +99,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 If you have any questions or suggestions, please open an issue in the repository.
+
+
+
